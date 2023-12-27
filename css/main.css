@@ -1,0 +1,246 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,800);
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	overflow-x: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+	background-image: url("../images/main_bg.png");
+}
+::-moz-selection{ 
+	background: #FF9900;
+}
+::selection{ 
+	background: #FF9900;
+}
+h1, h2{
+    font-family: 'Raleway', sans-serif;
+	font-weight:lighter;
+	text-align: center;
+	text-shadow:0px 1px 1px white;
+	color: #74b8fc;
+	padding: 10px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    }
+h1{
+	font-size: 70px;
+}
+h2{
+	font-size: 30px;  
+}
+a:link{
+	color:#74b8fc;
+	text-decoration: none;
+	font-weight: lighter;
+}
+a:hover{
+	color: #288ead;
+}
+#hi{
+	display: none;
+	color: #fff;
+	font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	background-color: #f1433f;
+}
+#h{
+	background-image: url(../images/header_bg.png);
+	height: 95px;
+	width: 100%;
+	background-repeat: repeat-x;
+}
+#sb{
+	background-image: url(../images/sidebar_background.png);
+	background-repeat: repeat;
+    -webkit-box-shadow: inset -1px 0px 1px -1px #fff;
+	box-shadow: inset -1px 0px 1px -1px #fff;
+	width: 230px;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	margin-left: -230px;
+	padding-top: 20px;
+	z-index: 101;
+}
+#c{
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+#mc{
+	margin-left: 0;
+	margin-right: 0;
+	min-width: 300px;
+}
+#dim{
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	background-color: #000;
+}
+.sba{
+	z-index: 101;
+	width: 49; 
+	height: 50;	
+}
+.sba, .hia{
+	margin-top: 15px;
+	margin-left: 10px;
+	padding: 5px;
+	float: left;
+	height: 50px;
+	width: 49px;
+	position: relative;
+	cursor: pointer;
+}
+
+.sba:hover {
+	opacity:0.8;
+	cursor: pointer;
+	
+}
+
+.sba:active{
+	top: 3px;
+	
+	
+}
+
+.hia:hover {
+	opacity: 0.8;
+}
+
+.hia:active {
+	top: 3px;
+}
+
+ul a{
+	text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+	text-transform: capitalize;
+	font-size: 25px;
+	font-weight: bold;
+	color: #0c2729;
+text-shadow:0px 1px 0px rgba(255,255,255,0.1);	cursor: pointer;
+}
+ul li{
+	list-style-type: none;
+	padding: 12px;
+	margin-top: 5x;
+	margin-bottom: 5px;
+	
+
+}
+ul div{
+	height:32px;
+	background-repeat:no-repeat;
+	padding-left:40px;
+}
+ul li:hover{
+	width: 205px;
+	color: #fff;
+	
+   }
+ 
+ul li:active {
+position: relative;
+	left: 5px;
+ }
+.b{
+	height: 168px;
+	width: 148px;
+	float: left;
+	text-decoration: none;
+}
+.bimg{
+	background-color: #000;
+	height: 128px;
+	width: 128px;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+	border: 1px solid #FFF;
+    background-position: center center;
+	background-repeat: no-repeat;
+	transition: all 0.3s ease-out;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; 
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; 
+
+}
+
+.bimg:hover {
+	-webkit-box-shadow: 1px 1px 50px 5px #fff;
+box-shadow: 1px 1px 50px 5px #fff;
+    opacity: 0.6;
+    position: relative;
+    top: -8px;	
+    
+    
+}
+
+.bt{
+    font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	color: #74b8fc;
+	text-shadow: 0px 1px 1px #3084d8;
+	text-align: center;
+}
+
+
+.loader {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+   }
+
+.addmymark{
+	float: left;
+	position: relative;
+	top: 0;
+	right: 20px;
+	width: 30px;
+	height: 30px;
+	font-size: 25px;
+	text-align: center;
+	color: #fff;
+	border-radius: 50%;
+	border: 2px solid white;
+	background-image: url("../images/plusicon.png");
+	background: #ff3019;
+    background: -moz-linear-gradient(top,  #ff3019 0%, #cf0404 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3019), color-stop(100%,#cf0404)); 
+    background: -webkit-linear-gradient(top,  #ff3019 0%,#cf0404 100%);
+    background: -o-linear-gradient(top,  #ff3019 0%,#cf0404 100%);    
+    background: -ms-linear-gradient(top,  #ff3019 0%,#cf0404 100%); 
+    background: linear-gradient(to bottom,  #ff3019 0%,#cf0404 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); 
+
+}
+
+.addmymark:hover {
+	background: #cf0404; /* Old browsers */
+background: -moz-linear-gradient(top,  #cf0404 0%, #ff3019 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cf0404), color-stop(100%,#ff3019)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #cf0404 0%,#ff3019 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #cf0404 0%,#ff3019 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #cf0404 0%,#ff3019 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #cf0404 0%,#ff3019 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf0404', endColorstr='#ff3019',GradientType=0 ); /* IE6-9 */
+cursor: pointer;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 800px)
+@media handheld and (min-device-width: 320px)
